@@ -2,14 +2,16 @@
 <html>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="stylesheet" href="styles.css">
+<script src="helloworld.js"></script>
 <body>
 <!-- <h1>Heading 2</h1>
 <p>Hello world!</p> -->
-<img src="https://www.ucsd.edu/_resources/img/logo_UCSD.png" alt="ucsdlogo" id="ucsdlogo">
+<img src="https://www.ucsd.edu/_resources/img/logo_UCSD.png" alt="ucsdlogo" class="ucsdlogo">
 <ul class="navbar">
     <li><a href="#section1">Section 1</a></li>
     <li><a href="#section2">Section 2</a></li>
     <li><a href="#section3">Section 3</a></li>
+    <li><a href="#section4">Subscribe</a></li>
 </ul>
 <div id="section1" class="section1">
     <h1 class="section-header">Section 1</h1>
@@ -38,9 +40,9 @@
 </div>
 <div id="section4" class="section4">
     <h1>Subscribe to our Newsletter!</h1>
-    <form action="https://www.w3schools.com/action_page.php"> 
+    <form id="subscribe-form"> 
         <label for="email">Enter your email: </label>
-        <input type="text" name="email">
+        <input type="text" id="email" name="email">
         <input type="submit" value="Submit">
     </form>
 </div>
